@@ -1,0 +1,65 @@
+.formDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.form{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 5px solid rgb(20, 70, 95);
+    border-radius: 0.5em;
+    position: relative;
+    background-color: rgb(210, 221, 223);
+    text-align: start;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input{
+    width: 98%;
+    padding: 6px;
+    border-radius: 10px;
+    border-color: #168cdb;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #bfd4df;
+    color: black;
+    box-sizing: border-box;
+}
+
+.select{
+    width: 200px;
+    padding: 6px;
+    border-radius: 10px;
+    border-color: #168cdb;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #bfd4df;
+    color: black;
+}
+
+.btn{
+    max-height: 40px;
+    padding: 6px;
+    border-radius: 5px;
+    border-color: #168cdb;
+    background-color: #f6f6f6;
+    color: black;
+    transition: background-color 0.2s ease-out 0.2s;
+    &:hover{
+        background-color: #bfd6e7;
+        color: black;
+    }
+}
